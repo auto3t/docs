@@ -1,0 +1,18 @@
+site_name: Auto3t Docs
+nav:
+  - Home: index.md
+  - 'TV Shows':
+    - 'Introduction': 'tv/introduction.md'
+    - 'Add new Show': 'tv/add.md'
+    - 'Show Detail Page': 'tv/show-detail.md'
+    - 'Episode Detail Page': 'tv/episode-detail.md'
+  - Movie:
+    - 'Introduction': 'movie/introduction.md'
+  - Collection:
+    - 'Introduction': 'collection/introduction.md'
+  - Settings:
+    - 'Key Words': 'settings/search-keywords.md'
+    - 'Movie Release': 'settings/movie-release.md'
+    - 'Tasks': 'settings/tasks.md'
+theme:
+  name: material
