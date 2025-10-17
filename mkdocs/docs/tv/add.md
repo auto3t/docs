@@ -10,7 +10,7 @@ If available, for each show you see:
 - Title
 - ID: That is the tvmaze internal show ID. Click on the link to open the page on tvmaze.
 - Description: Show description with genre
-- Status: Show status, that is an enum with these values: **Running**, **Ended**, **In Development** or **To Be Determined**
+- Status: Show status
 - Start: Date when the show was / is going to be aired the first time
 - Ended: End date if the show has ended
 
