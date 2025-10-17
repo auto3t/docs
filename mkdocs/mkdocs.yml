@@ -8,6 +8,8 @@ nav:
     - 'Episode Detail Page': 'tv/episode-detail.md'
   - Movie:
     - 'Introduction': 'movie/introduction.md'
+    - 'Add new Movie': 'movie/add.md'
+    - 'Movie Detail Page': 'movie/movie-detail.md'
   - Collection:
     - 'Introduction': 'collection/introduction.md'
   - Settings:

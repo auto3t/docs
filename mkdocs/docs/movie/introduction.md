@@ -15,6 +15,21 @@ These are the available options:
 | Post Production   | o                 | Movie is in post production                                   |
 | Released          | e                 | Movie is released                                             |
 
+
+## Movie Release Windows
+Movie release windows represent when and on what medium a movie is released. That is provided by themoviedb. These dates are used by Auto3t to determin when to start searching for a movie.
+
+These are the available options:
+
+| Release Medium        |
+|-----------------------|
+| Premiere              |
+| Theatrical (limited)  |
+| Theatrical            |
+| Digital               |
+| Physical              |
+| TV                    |
+
 ## Movie Status
 That is the status as determined by Auto3t. That should get updated automatically through the pipeline. This gives an overview of the flow, from top to bottom.
 
