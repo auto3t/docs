@@ -21,6 +21,7 @@ nav:
   - Settings:
     - 'Key Words': 'settings/search-keywords.md'
     - 'Movie Release': 'settings/movie-release.md'
+    - 'Archive Options': 'settings/archive-options.md'
     - 'Tasks': 'settings/tasks.md'
 theme:
   name: material
