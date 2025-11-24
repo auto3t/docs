@@ -26,6 +26,9 @@ You can manually search for show level releases in the indexes. Manual search fo
 
 The release will be valid, if all expected episodes can be identified in the release. Auto3t does not automatically search for show level releases, as that is too unreliable.
 
+## Cast and Crew
+Auto3t imports main show casts and crew members. Click on the Person, to navigate to the person detail page.
+
 ## Seasons
 
 You can see the indexed seasons in a list. A "show more" button will show, if there are more seasons than shown in the UI. Seasons are ordered by newest first. The active season is highlighted. The default active season is the newest season that has episodes available.

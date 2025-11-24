@@ -41,3 +41,4 @@ The status of each episode is tracked and updated by Auto3t through out the pipe
 Additional Notes:
 
 - When adding a new show, Auto3t will do an initial lookup and will mark any already in the mediaserver available episodes as archived.
+- Episodes older than 365 days will be added with status "ignored", you can bulk update seasons if you also want to start searching for older episodes and seasons.

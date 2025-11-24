@@ -6,7 +6,7 @@ Start typing to search through themoviedb index. Results are returned as provide
 
 If available, each movie will show:
 
-- Artwork directly hotlinked from tvmaze
+- Artwork directly hotlinked from themoviedb
 - Title with release Year
 - ID: That is themoviedb internal movie ID. Click on the link to open the page on [themoviedb.org](https://www.themoviedb.org).
 - Description: Show description

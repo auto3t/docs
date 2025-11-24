@@ -1,1 +1,5 @@
 # Collections
+
+Collection metadata is provided by [themoviedb.org](https://www.themoviedb.org/). Please contribute to this excelent database. To use this API, create your API key [here](https://www.themoviedb.org/settings/api).
+
+Collections get automatically imported or matched during the movie import or movie refresh process. Collections imported like that, they will be marked as "not tracking".

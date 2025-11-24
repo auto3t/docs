@@ -12,6 +12,8 @@ nav:
     - 'Movie Detail Page': 'movie/movie-detail.md'
   - Collection:
     - 'Introduction': 'collection/introduction.md'
+    - 'Add new Collection': 'collection/add.md'
+    - 'Collection Detail Page': 'collection/collection-detail.md'
   - Settings:
     - 'Key Words': 'settings/search-keywords.md'
     - 'Movie Release': 'settings/movie-release.md'

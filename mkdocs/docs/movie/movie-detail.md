@@ -20,6 +20,10 @@ Click on "show details" to expand additional config details for this movie.
 ## Release Windows
 If available you can find available release windows for that movie here with the given dates and medium. That is used to determin at what point a movie will be switched to upcoming and searching.
 
+## Cast and Crew
+Auto3t imports main actors and crew members. Click on the Person, to navigate to the person detail page.
+
+
 ## Part of Collection
 If the movie is part of a collection, aka boxset, you can find the collection detail and link here.
 
