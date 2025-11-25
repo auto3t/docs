@@ -2,6 +2,9 @@ site_name: Auto3t Docs
 nav:
   - Home: index.md
   - 'Getting Started': getting-started.md
+  - 'Installation':
+    - 'Docker Compose (Default)': 'installation/docker-compose.md'
+    - 'Environment variables': 'installation/env-vars.md'
   - 'TV Shows':
     - 'Introduction': 'tv/introduction.md'
     - 'Add new Show': 'tv/add.md'
