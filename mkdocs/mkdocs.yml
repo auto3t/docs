@@ -1,10 +1,10 @@
-site_name: Auto3t Docs
+site_name: Auto3T Docs
 nav:
   - Home: index.md
-  - 'Getting Started': getting-started.md
   - 'Installation':
     - 'Docker Compose (Default)': 'installation/docker-compose.md'
     - 'Environment variables': 'installation/env-vars.md'
+  - 'Getting Started': getting-started.md
   - 'TV Shows':
     - 'Introduction': 'tv/introduction.md'
     - 'Add new Show': 'tv/add.md'
@@ -26,6 +26,6 @@ nav:
     - 'Key Words': 'settings/search-keywords.md'
     - 'Movie Release': 'settings/movie-release.md'
     - 'Archive Options': 'settings/archive-options.md'
-    - 'Tasks': 'settings/tasks.md'
+    - 'Schedule and Tasks': 'settings/schedule-tasks.md'
 theme:
   name: material

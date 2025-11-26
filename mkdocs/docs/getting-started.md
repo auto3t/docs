@@ -1,6 +1,6 @@
 # Getting Started
 
-After installation.
+Continue here after completing the installation steps.
 
 ## Create User
 
@@ -17,3 +17,5 @@ docker compose exec -it auto3t python manage.py createsuperuser
 ```
 
 Follow the prompts. You don't have to provide an email, you can keep it blank.
+
+After that, use your created username and password to login.
