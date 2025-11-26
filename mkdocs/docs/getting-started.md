@@ -19,3 +19,13 @@ docker compose exec -it auto3t python manage.py createsuperuser
 Follow the prompts. You don't have to provide an email, you can keep it blank.
 
 After that, use your created username and password to login.
+
+## Configure Auto3T
+
+You *can* configure keyword categories and keywords, but you don't *have* to. Auto3T will pick the most popular options by default.
+
+You *have* to configure "Movie Release Targets" for Auto3T to know what kind of release you are targeting.
+
+You *should* configure the archive options before starting to track any movie or show. The archive option only applies for new downloads.
+
+You *should* configure the schedules, if in doubt, use the recommendations and adjust if that doesn't fit your needs.
