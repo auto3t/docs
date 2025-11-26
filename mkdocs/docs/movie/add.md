@@ -12,4 +12,4 @@ If available, each movie will show:
 - Description: Show description
 - Release: Date of release
 
-If the movie already exists in Auto3t, an open button will show, otherwise you can add the movie by clicking on "Add". That will synchronously add the movie and return an open button. Further metadata is beeing process asynchronously in the background.
+If the movie already exists in **Auto3T**, an open button will show, otherwise you can add the movie by clicking on "Add". That will synchronously add the movie and return an open button. Further metadata is beeing process asynchronously in the background.

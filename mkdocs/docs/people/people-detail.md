@@ -10,7 +10,7 @@ If there are missing IDs, an edit button will show so you can manually add the c
 
 ## Local Credits
 
-These are movie and TV credits of this person locally in Auto3T.
+These are movie and TV credits of this person locally in **Auto3T**.
 
 ## Remote Credits
 

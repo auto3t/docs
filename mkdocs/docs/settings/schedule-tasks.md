@@ -1,6 +1,6 @@
 # Schedule and Tasks
 
-Auto3t depends on scheduled tasks for it's core functionality. It is on you the user to configure those. Schedules are defined in cron format.
+**Auto3T** depends on scheduled tasks for it's core functionality. It is on you the user to configure those. Schedules are defined in cron format. Make sure to configure your `TZ` env var correctly.
 
 ## Schedule
 

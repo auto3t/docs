@@ -25,13 +25,13 @@ These are the available options:
 
 ## Episode Status
 
-The status of each episode is tracked and updated by Auto3t through out the pipeline. This gives an overview of the flow, from top to bottom.
+The status of each episode is tracked and updated by **Auto3T** through out the pipeline. This gives an overview of the flow, from top to bottom.
 
 | Status        | Shortcut              | Explenation                                                                        |
 |---------------|-----------------------|------------------------------------------------------------------------------------|
 | none          | -                     | Initial episode status for new episodes.                                           |
 | upcoming      | u                     | The episode has a future umcoming release date.                                    |
-| searching     | s                     | The release date is in the past and Auto3t is actively searching for new releases. |
+| searching     | s                     | The release date is in the past and **Auto3T** is actively searching for new releases. |
 | downloading   | d                     | The episode is currently downloading. A progress bar will show if available.       |
 | finished      | f                     | The episode has finished downloading and has been moved to the media folder.       |
 | archived      | a                     | The episode has been identified by the mediaserver.                                |
@@ -40,5 +40,5 @@ The status of each episode is tracked and updated by Auto3t through out the pipe
 
 Additional Notes:
 
-- When adding a new show, Auto3t will do an initial lookup and will mark any already in the mediaserver available episodes as archived.
+- When adding a new show, **Auto3T** will do an initial lookup and will mark any already in the mediaserver available episodes as archived.
 - Episodes older than 365 days will be added with status "ignored", you can bulk update seasons if you also want to start searching for older episodes and seasons.

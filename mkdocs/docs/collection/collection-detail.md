@@ -10,4 +10,4 @@ There you can fonfigure additional option for the collection:
 
 ## Movies in Collection
 
-This shows the list of movies in the collection. Movies not part of Auto3t will embed from TMDB and show an "add" button to add and start tracking the movie.
+This shows the list of movies in the collection. Movies not part of **Auto3T** will embed from TMDB and show an "add" button to add and start tracking the movie.

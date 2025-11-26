@@ -3,7 +3,7 @@
 People are indexed from movies and TV shows. Additionally you can activate "tracking" for a person.
 
 ## Limitations
-There is a possibility for duplicate persons here. Unfortunatly matching people between the different databases from tvmaze and TMDB is only possible through assuming. If the name matches exactly and there is no other possible match, Auto3T assumes that is the same person and will asign IDs accordingly. 
+There is a possibility for duplicate persons here. Unfortunatly matching people between the different databases from tvmaze and TMDB is only possible through assuming. If the name matches exactly and there is no other possible match, **Auto3T** assumes that is the same person and will asign IDs accordingly otherwise create two person entries.
 
 ## Filters
 

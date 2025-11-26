@@ -1,6 +1,6 @@
 # Auto3T Documentation
 
-Official documentation for Auto3T: Auto *Track*, *Tape* and *Torrent*.
+Official documentation for **Auto3T**: Auto *Track*, *Tape* and *Torrent*.
 
 ## Core Concepts
 
@@ -30,4 +30,4 @@ Auto:
 
 ## The Name
 
-Auto3T is inspired by the early days of sharing media, the days where one would listen to music and shows *tracked* in magazines and newspapers on an analog radio player with integrated cassette *tape* case, then share, or now *torrent* the recordings with each other. Now do the same, but *automatically*, at least as much as possible, for TV shows and movies.
+**Auto3T** is inspired by the early days of sharing media, the days where one would listen to music and shows *tracked* in magazines and newspapers on an analog radio player with integrated cassette *tape* case, then share, or now *torrent* the recordings with each other. Now do the same, but *automatically*, at least as much as possible, for TV shows and movies.

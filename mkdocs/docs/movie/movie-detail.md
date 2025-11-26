@@ -4,7 +4,7 @@ Each movie has a dedicated detail page. You can reach the detail page by clickin
 
 There you can see additional metadata of the movie. 
 
-Notably, if you have configured the Target bitrate on the settings page, you can see the expected file size Auto3t is going to look for based on the runtime of the given movie.
+Notably, if you have configured the Target bitrate on the settings page, you can see the expected file size **Auto3T** is going to look for based on the runtime of the given movie.
 
 ### Movie Status Edit
 There you can manually edit the status of the movie. Usually that should not be needed, as the should be handled automatically through the pipeline steps.
@@ -21,7 +21,7 @@ Click on "show details" to expand additional config details for this movie.
 If available you can find available release windows for that movie here with the given dates and medium. That is used to determin at what point a movie will be switched to upcoming and searching.
 
 ## Cast and Crew
-Auto3t imports main actors and crew members. Click on the Person, to navigate to the person detail page.
+**Auto3T** imports main actors and crew members. Click on the Person, to navigate to the person detail page.
 
 
 ## Part of Collection

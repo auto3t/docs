@@ -4,7 +4,7 @@ Continue here after completing the installation steps.
 
 ## Create User
 
-Create your user login before you can access Auto3T. You can create your user by running
+Create your user login before you can access **Auto3T**. You can create your user by running
 
 ```bash
 python manage.py createsuperuser
@@ -20,11 +20,11 @@ Follow the prompts. You don't have to provide an email, you can keep it blank.
 
 After that, use your created username and password to login.
 
-## Configure Auto3T
+## Configure **Auto3T**
 
-You *can* configure keyword categories and keywords, but you don't *have* to. Auto3T will pick the most popular options by default.
+You *can* configure keyword categories and keywords, but you don't *have* to. **Auto3T** will pick the most popular options by default.
 
-You *have* to configure "Movie Release Targets" for Auto3T to know what kind of release you are targeting.
+You *have* to configure "Movie Release Targets" for **Auto3T** to know what kind of release you are targeting.
 
 You *should* configure the archive options before starting to track any movie or show. The archive option only applies for new downloads.
 

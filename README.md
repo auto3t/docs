@@ -1,1 +1,1 @@
-# Auto3t Documentation
+# Auto3T Documentation
