@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Alef-Bold';
+  src: url('/fonts/Alef-Bold.ttf');
+  font-family: 'Alef-Bold';
+}
+
+@font-face {
+  font-family: 'Alef-Regular';
+  src: url('/fonts/Alef-Regular.ttf');
+  font-family: 'Alef-Regular';
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('/fonts/Righteous-Regular.ttf');
+  font-family: 'Righteous';
+}
+
+:root {
+  --main-bg: #00202f;
+  --second-bg: #00688c;
+  --main-fg: #f0d4ac;
+  --accent-1: #e33b26;
+  --accent-2: #e56936;
+  --accent-3: #018f9c;
+  --font-display: Alef-Regular;
+  --font-bold: Alef-Bold;
+  --font-heading: Righteous;
+}
+
+[data-md-color-scheme="auto3t"] {
+  --md-accent-fg-color: var(--accent-2);
+  --md-admonition-bg-color: var(--second-bg);
+  --md-admonition-fg-color: var(--main-fg);
+  --md-code-bg-color: var(--second-bg);
+  --md-code-fg-color: var(--main-fg);
+  --md-default-bg-color: var(--main-bg);
+  --md-default-fg-color: var(--accent-2);
+  --md-default-fg-color--light: var(--accent-1);
+  --md-default-fg-color--lighter: var(--accent-1);
+  --md-primary-fg-color: var(--second-bg);
+  --md-typeset-a-color: var(--accent-2);
+  --md-typeset-color: var(--main-fg);
+  --md-typeset-table-color: var(--main-fg);
+  --md-footer-bg-color--dark: var(--second-bg);
+}
+
+h1,
+h2,
+strong {
+  font-family: Alef-Bold;
+}
+
+p, a, span, h3 {
+  font-family: Alef-Regular;
+}
+
+th {
+  background-color: var(--second-bg);
+}
+
+.md-typeset tr::hover {
+  background-color: var(--md-admonition-bg-color);
+}
+
+.md-typeset .admonition.note {
+  border-color: var(--main-fg);
+}
+
+.md-typeset .note > .admonition-title::before {
+  background-color: var(--main-fg);
+}
+
+.md-search__input {
+  color: var(--main-fg);
+}

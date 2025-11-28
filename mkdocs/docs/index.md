@@ -2,6 +2,9 @@
 
 Official documentation for **Auto3T**: Auto *Track*, *Tape* and *Torrent*.
 
+!!! note
+    This is early stages. This documentation is not considered complete. Please help improve it.
+
 ## Core Concepts
 
 Track:
