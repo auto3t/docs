@@ -14,9 +14,11 @@ If available, for each show you see:
 - Start: Date when the show was / is going to be aired the first time
 - Ended: End date if the show has ended
 
-If the show already exists in **Auto3T**, an "open" button will show redirecting you to the show detail page.
+If the show already exists in **Auto3T**, the "open" button will redirect you to the show detail page.
+
+If the show already exists in your Mediaserver, a direct link to there will show.
 
 If the show does not yet exists, you can click on "Add" to add a show to **Auto3T**. The "active" toggle indicates if the show will be actively tracked, searched and refreshed.
 
 - That synchronously adds the show, returning an "Open" button to open the show.
-- Asynchronously in the background, further metadata and artwork is beeing processed. This can can take some time, depending on how many seasons and episodes need to be imported.
+- Asynchronously in the background, further metadata and artwork is being processed. This can take some time, depending on how many seasons and episodes need to be imported.

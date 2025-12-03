@@ -1,8 +1,8 @@
 # People detail Page
 
-Each person has a detail page with additional configuratio options.
+Each person has a detail page with additional configuration options.
 
-If there are missing IDs, an edit button will show so you can manually add the coresponding ID. Make sure you populate any missing IDs if you want to track a person.
+If there are missing IDs, an edit button will show so you can manually add the corresponding ID. Make sure you populate any missing IDs if you want to track a person.
 
 - Tracking Movies: Automatically add movies where this person has a credit and with the release date in the future from "now" as tracking.
 - Tracking TV: Automatically add TV Shows with this person as cast credit and a premier date in the future from "now" as tracking.

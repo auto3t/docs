@@ -64,8 +64,8 @@ Basefolder where the completed downloads are located. That is from within the **
 
 ## TV_BASE_FOLDER
 
-Base folder for your archived TV shows. That is within the **Auto3T** container. That needs to be shared with the Jellyfin container. See the installation instuctions. Not strictly required, but `/media/tv` is a good default.
+Base folder for your archived TV shows. That is within the **Auto3T** container. That needs to be shared with the Jellyfin container. See the installation instructions. `/media/tv` is a good default.
 
 ## MOVIE_BASE_FOLDER
 
-Base folder for your archived Movies. That is within the **Auto3T** container. That needs to be shared with the Jellyfin container. See the installation instuctions. Not strictly required, but `/media/movie` is a good default.
+Base folder for your archived Movies. That is within the **Auto3T** container. That needs to be shared with the Jellyfin container. See the installation instructions. `/media/movie` is a good default.

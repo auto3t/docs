@@ -2,7 +2,7 @@
 
 Configuration option related how files are archived from your download folder to the archive folder.
 
-Select the option and click on the "checkmark" to apply. Only new movies archived movies will use that format, this does not touch any existing files in the folder.
+Select the option and click on the "checkmark" to apply. Only newly archived movies will use that format, this does not touch any existing files in the folder.
 
 ## Movie Archive Strategy
 
@@ -20,20 +20,16 @@ Some of these options will fail depending on your setup. Read this carefully.
 
 ### Move
 
-Move completed files from the download folder to the archive folder and delete the torrent from the client. This might fail if this moves files accros filesystems.
+Move completed files from the download folder to the archive folder and delete the torrent from the client. This might fail if this moves files across filesystems.
 
 ### Copy
 
-Copy the files from the download folder to the archive folder. Keep the torrent as is.
+Copy the files from the download folder to the archive folder. Keep the torrent as is in the download client.
 
 ### Copy and Delete
 
-Copy the file from the download folder to the archive folder then delete the download file. Use this if moving is not working because of filesystem limitations.
+Copy the file from the download folder to the archive folder then delete the download file and torrent from the client. Use this if moving is not working because of filesystem limitations.
 
 ### Hard link
 
-Hard link from download folder to the archive folder. Make it available for your mediaserver and keep it available for the download client. Original file remains in the download folder. Does not work across filesystems. 
-
-### Copy and Hard link
-
-Copy the file from the download folder to the archive folder then hard link it back to the original file in the download folder replacing the downloaded file with the link. The actual file is in the archive folder, the link makes it available for the download client. Does not work across filesystems. 
+Hard link from download folder to the archive folder. Make it available for your mediaserver and keep it available for the download client. The original file remains in the download folder. Does not work across filesystems. 

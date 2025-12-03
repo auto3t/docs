@@ -1,6 +1,6 @@
 # Schedule and Tasks
 
-**Auto3T** depends on scheduled tasks for it's core functionality. It is on you the user to configure those. Schedules are defined in cron format. Make sure to configure your `TZ` env var correctly.
+**Auto3T** depends on scheduled tasks for its core functionality. It is on you the user to configure those. Schedules are defined in cron format. Make sure to configure your `TZ` env var correctly.
 
 ## Schedule
 
@@ -21,7 +21,7 @@ Then additional requests to fetch artwork if needed.
 
 ### Refresh Episode Status
 
-That task is responsible to update the status of an episode and trigger a search in the index if the episode status is "Searching". Depending on how many shows you are tracking and how many episodes are in status "Searching", create an schedule that triggers every hour or every couple of hours.
+That task is responsible to update the status of an episode and trigger a search in the index if the episode status is "Searching". Depending on how many shows you are tracking and how many episodes are in status "Searching", create a schedule that triggers every hour or every couple of hours.
 
 ### Refresh all Movies
 
@@ -29,11 +29,11 @@ This refreshes the metadata of all movies marked as "tracking". This will also s
 
 ### Refresh Movie Status
 
-This refreshes the status of movies and mark them as upcoming or searching if needed. If a movie is marked as searching, this will search the indexes for any matching releases. A shedule that triggers once or twice per day should be enough here.
+This refreshes the status of movies and marks them as upcoming or searching if needed. If a movie is marked as searching, this will search the indexes for any matching releases. A schedule that triggers once or twice per day should be enough here.
 
 ### Cleanup Leftovers
 
-That's an application internall cleanup task. That's not strictly needed to run regularly, maybe schedule it once or twice per week. That cleans up any unconnected Artwork or People/Credit instances.
+That's an application internal cleanup task. That's not strictly needed to run regularly, maybe schedule it once or twice per week. That cleans up any unconnected Artwork or People/Credit instances.
 
 ### Refresh People
 
@@ -48,4 +48,4 @@ This will also refresh newly imported persons importing additional metadata if p
 
 ## Tasks
 
-Tasks can be run ad-hoc here on click. For a description what each task is doing, see above.
+Tasks can be run ad-hoc here on click. For a description of what each task is doing, see above.
