@@ -1,6 +1,8 @@
 # TV Shows
 
-TV Show metadata is provided through [tvmaze.com](https://www.tvmaze.com/). Please contribute to this excellent free database.
+!!! info
+
+    TV Show metadata is provided through [tvmaze.com](https://www.tvmaze.com/). Please contribute to this excellent free database.
 
 The Show list page gives a list of all TV shows tracked.
 
@@ -12,7 +14,7 @@ From there you can:
 - Filter by active/inactive shows
 
 ## Show Status
-The show status is provided by tvmaze. That is refreshed with the show refresh task.
+The show status is provided by tvmaze. That is refreshed with the [show refresh task](../settings/schedule-tasks.md/#refresh-all-shows).
 
 These are the available options:
 
@@ -36,9 +38,3 @@ The status of each episode is tracked and updated by **Auto3T** throughout the p
 | finished      | f                     | The episode has finished downloading and has been moved to the media folder.       |
 | archived      | a                     | The episode has been identified by the mediaserver.                                |
 | ignored       | i                     | The episode has been ignored and will not be searched automatically.               |
-
-
-Additional Notes:
-
-- When adding a new show, **Auto3T** will do an initial lookup and will mark any already in the mediaserver available episodes as archived.
-- Episodes older than 365 days will be added with status "ignored", you can bulk update seasons if you also want to start searching for older episodes and seasons. This is to prevent an initial potentially large download of past episodes that might be unexpected from a "tracking" perspective.

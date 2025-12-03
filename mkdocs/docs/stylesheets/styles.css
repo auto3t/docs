@@ -43,6 +43,7 @@
   --md-typeset-color: var(--main-fg);
   --md-typeset-table-color: var(--main-fg);
   --md-footer-bg-color--dark: var(--second-bg);
+  --md-code-hl-constant-color: var(--accent-2);
 }
 
 h1,

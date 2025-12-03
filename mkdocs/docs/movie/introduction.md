@@ -1,6 +1,8 @@
 # Movies
 
-Movie metadata is provided by [themoviedb.org](https://www.themoviedb.org/). Please contribute to this excellent database. To use this API, create your API key [here](https://www.themoviedb.org/settings/api).
+!!! info
+    
+    Movie metadata is provided by [themoviedb.org](https://www.themoviedb.org/). Please contribute to this excellent database. To use this API, create your free API key [here](https://www.themoviedb.org/settings/api).
 
 ## Production Status
 The movie production status is provided by themoviedb. That is refreshed with the movie refresh task.

@@ -34,6 +34,8 @@ theme:
   palette:
     scheme: auto3t
   custom_dir: overrides
+  features:
+    - content.code.copy
 extra_css:
   - stylesheets/styles.css
 markdown_extensions:

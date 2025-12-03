@@ -16,11 +16,12 @@ This is the download folder for movies. All of these should be compatible with J
 
 ## File Operation Option
 
-Some of these options will fail depending on your setup. Read this carefully.
+!!! info
+    Some of these options will fail depending on your setup. Read this carefully. When in doubt, put your "completed" folder for your download client on the same filesystem as your media folder to avoid moving / linking across filesystems.
 
 ### Move
 
-Move completed files from the download folder to the archive folder and delete the torrent from the client. This might fail if this moves files across filesystems.
+Move completed files from the download folder to the archive folder and delete the torrent from the client. This might fail if this moves files across filesystems that don't support moving.
 
 ### Copy
 

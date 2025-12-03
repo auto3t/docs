@@ -22,10 +22,10 @@ After that, use your created username and password to login.
 
 ## Configure **Auto3T**
 
-You *can* configure keyword categories and keywords, but you don't *have* to. **Auto3T** will pick the most popular options by default.
+You *can* configure [keyword categories](./settings/search-keywords.md/#categories) and [keywords](./settings/search-keywords.md/#keywords), but you don't *have* to. **Auto3T** will pick the most popular options by default.
 
-You *have* to configure "Movie Release Targets" for **Auto3T** to know what kind of release you are targeting.
+You *have* to configure [Movie Release Targets](./settings/movie-release.md/#target-release) for **Auto3T** to know what kind of release you are targeting.
 
-You *should* configure the archive options before starting to track any movie or show. The archive option only applies for new downloads.
+You *should* configure the [archive options](./settings/archive-options.md) before starting to track any movie or show. The archive option only applies for new downloads.
 
-You *should* configure the schedules, if in doubt, use the recommendations and adjust if that doesn't fit your needs.
+You *should* configure the [schedules](./settings/schedule-tasks.md), if in doubt, use the recommendations and adjust if that doesn't fit your needs.
