@@ -1,4 +1,5 @@
 site_name: Auto3T Docs
+site_url: https://docs.auto3t.com
 nav:
   - Home: index.md
   - 'Installation':
@@ -38,6 +39,9 @@ theme:
     - content.code.copy
 extra_css:
   - stylesheets/styles.css
+extra:
+  analytics:
+    provider: custom
 markdown_extensions:
   - toc:
       permalink: "#"
