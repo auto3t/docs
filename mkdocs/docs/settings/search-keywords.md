@@ -16,3 +16,7 @@ Keywords are defined in the category. For example you might want to create:
 | Resolution            | 1080p, 720p           | Set the 1080p as default *include* for movies and 720p as default include* for tv.   |
 | Release               | webrip, blueray, hdts | Set hdts as default *exclude* for movies. Then you can selectively overwrite blueray *include* if you want to wait for a higher resolution option. |
 | Codec                 | x264, x265            | Selectively overwrite some popular shows to prefer x265 for higher compression rate. |
+
+## Target Bitrate
+
+Configure the target bitrate for movies and TV shows you are searching for. That is calculated with the duration and the reported file size. Set a +/- % value to allow for a range of acceptable file sizes. Don't be too restrictive here, otherwise no releases might match.

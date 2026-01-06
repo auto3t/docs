@@ -13,6 +13,9 @@ Toggle active/inactive the show. If the show is active, the metadata will regula
 
 Keep it active if you want **Auto3T** to regularly refresh and search for new episodes. If the show has ended, you also might want to deactivate it here, to stop refreshing it regularly.
 
+### Target Bitrate
+Select a target bitrate per show. Be aware, that depending on the show, the duration might not be as expected, because as indexed from tvmaze, the duration might be including advertisement pauses.
+
 ### Search Name
 This overwrites the search term when automatically searching for new releases through the indexers. Usually the default show name is working as expected, sometimes you'll need to adjust it, for example if the indexers add a year to the name, to avoid getting incorrect episodes.
 
