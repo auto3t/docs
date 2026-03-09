@@ -29,6 +29,10 @@ You can manually search for show level releases in the indexes. Manual search fo
 
 The release will be valid, if all expected episodes can be identified in the release. **Auto3T** does not automatically search for show level releases, as that is too unreliable.
 
+## Show Ratings
+
+Show ratings provided from IMDb through a standalone container. For installation instructions see [github.com/bbilly1/imdb-db](https://github.com/bbilly1/imdb-db). Activate by configuring IMDB_DB_URL.
+
 ## Cast and Crew
 **Auto3T** imports main show casts and crew members. Click on the Person, to navigate to the person detail page.
 

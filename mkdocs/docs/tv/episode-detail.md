@@ -11,6 +11,9 @@ There you can see additional metadata of the episode. Plus gives navigation link
 ### Episode Status Edit
 You can manually edit the episode status here. That shouldn't be needed if all is going well as that is handled by the automated tasks. Episode status can also be edited in bulk on the season.
 
+### Episode Number Offset
+In some cases, the remote index will treat an episode as two, while the indexers treat them as a single episode. Common for pilot episodes or first episodes in the season that are a "double" episode. To keep the episode numbers aligned with searching, you can define an offset here. E.g. Episode 1 and 2 are separate on the remote index, you probably want to ignore episode 2, then on episode 3 add an offset of -1, to treat episode 3 as 2. All following episodes in the season will also get the offset to keep the numbering consistent. 
+
 ## Releases
 If **Auto3T** has found any releases for the episodes they will be shown here. Also ignored releases are shown here. A release will automatically get ignored, if despite the title being as expected, does not contain the expected media files as reported by the download client.
 

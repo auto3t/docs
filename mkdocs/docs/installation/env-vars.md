@@ -18,6 +18,14 @@ Your timezone. Defaults to `UTC`. Required for the scheduler to work as expected
 
 Optionally temporarily set to anything except empty string to enable debug functionality for the backend. 
 
+## IMDB_DB_URL
+
+Optionally integrate with [github.com/bbilly1/imdb-db](https://github.com/bbilly1/imdb-db) for additional metadata like ratings provided by IMDb. For more details, see the linked repo.
+
+## IMDB_DB_API_KEY
+
+Optionally add the API key for your imdb container, if you have configured this accordingly.
+
 ## JF_URL
 
 The container internal URL to connect from within the **Auto3T** container to your Jellyfin container. Make sure these containers have a shared network to communicate. The URL is usually the service name, e.g. `http://auto3t-jellyfin:8096`. Add protocol and port if needed.

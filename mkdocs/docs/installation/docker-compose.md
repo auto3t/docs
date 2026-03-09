@@ -30,7 +30,7 @@ Also see [> Settings > Archive Options](../settings/archive-options.md#file-oper
 
 ## Redis
 
-Redis serves as a queue handler and cache. Redis doesn't store any persistent data.
+Redis serves as a queue handler and cache. Redis doesn't store any persistent data but it's still recommended to define a volume to keep the cache over container restarts.
 
 ## Prowlarr
 

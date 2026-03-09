@@ -46,6 +46,10 @@ This will refresh every time if:
 
 This will also refresh newly imported persons importing additional metadata if possible.
 
+### Clear Redis Cache
+
+This will delete all cached data from Redis. This shouldn't really be needed, mostly a convenient button during development.
+
 ## Tasks
 
 Tasks can be run ad-hoc here on click. For a description of what each task is doing, see above.

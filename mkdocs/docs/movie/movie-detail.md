@@ -15,6 +15,7 @@ Click on "show details" to expand additional config details for this movie.
 
 - Active/inactive toggle
 - Overwrite target bitrate for this movie
+- Define a search alias to overwrite the search term
 - Add a keyword
 
 ## Release Windows
