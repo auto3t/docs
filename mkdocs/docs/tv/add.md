@@ -16,7 +16,7 @@ If available, for each show you see:
 
 If the show already exists in **Auto3T**, the "open" button will redirect you to the show detail page.
 
-If the show already exists in your Mediaserver, a direct link to there will show.
+If the show already exists in your Mediaserver, a direct link to there will show. Make sure you have configured [JF_PROXY_URL](../installation/env-vars.md/#jf_proxy_url) for the links to work correctly.
 
 If the show does not yet exists, you can click on "Add" to add a show to **Auto3T**. The "active" toggle indicates if the show will be actively tracked, searched and refreshed.
 
