@@ -1,0 +1,67 @@
+[project]
+site_name = "Auto3T Docs"
+site_url = "https://docs.auto3t.com"
+copyright = "© <script>document.write(new Date().getFullYear())</script> Auto3T"
+use_directory_urls = true
+extra_css = ["stylesheets/styles.css"]
+nav = [
+  { "Home" = "index.md" },
+  { "Installation" = [
+    { "Docker Compose (Default)" = "installation/docker-compose.md" },
+    { "Environment variables" = "installation/env-vars.md" },
+  ] },
+  { "Getting Started" = "getting-started.md" },
+  { "TV Shows" = [
+    { "Introduction" = "tv/introduction.md" },
+    { "Add new Show" = "tv/add.md" },
+    { "Show Detail Page" = "tv/show-detail.md" },
+    { "Episode Detail Page" = "tv/episode-detail.md" },
+  ] },
+  { "Movie" = [
+    { "Introduction" = "movie/introduction.md" },
+    { "Add new Movie" = "movie/add.md" },
+    { "Movie Detail Page" = "movie/movie-detail.md" },
+  ] },
+  { "Collection" = [
+    { "Introduction" = "collection/introduction.md" },
+    { "Add new Collection" = "collection/add.md" },
+    { "Collection Detail Page" = "collection/collection-detail.md" },
+  ] },
+  { "People" = [
+    { "Introduction" = "people/introduction.md" },
+    { "Add new Person" = "people/add.md" },
+    { "People detail Page" = "people/people-detail.md" },
+  ] },
+  { "Settings" = [
+    { "Key Words" = "settings/search-keywords.md" },
+    { "Movie Release" = "settings/movie-release.md" },
+    { "Archive Options" = "settings/archive-options.md" },
+    { "Schedule and Tasks" = "settings/schedule-tasks.md" },
+  ] },
+]
+
+[project.theme]
+variant = "classic"
+logo = "assets/logo.png"
+favicon = "assets/favicon.ico"
+custom_dir = "overrides"
+features = ["content.code.copy"]
+
+[project.theme.palette]
+scheme = "auto3t"
+
+[project.extra.analytics]
+provider = "custom"
+
+[project.markdown_extensions.toc]
+permalink = "#"
+
+[project.markdown_extensions.admonition]
+
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.tables]
+
+[project.markdown_extensions.footnotes]

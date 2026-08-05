@@ -6,10 +6,10 @@ ENV PATH=/root/.local/bin:$PATH
 COPY requirements.txt /requirements.txt
 RUN pip install --user -r requirements.txt
 
-RUN mkdir /mkdocs
-COPY mkdocs /mkdocs
-WORKDIR mkdocs
+RUN mkdir /zensical
+COPY zensical /zensical
+WORKDIR /zensical
 RUN zensical build
 
 FROM nginx AS srv
-COPY --from=builder /mkdocs/site /usr/share/nginx/html
+COPY --from=builder /zensical/site /usr/share/nginx/html

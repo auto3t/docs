@@ -15,7 +15,7 @@ Please help improve these documentations. To make changes, fork this repo and ma
 
 ## Development Environment
 
-To just make simple changes, edit the markdown files within mkdocs/docs directly.
+To just make simple changes, edit the Markdown files within `zensical/docs` directly.
 
 To setup a local development server:
 
@@ -27,7 +27,7 @@ pip install -r requirements-dev.txt
 
 More details: [Zensical documentation](https://zensical.org/docs/)
 
-Run the server from the mkdocs folder with:
+Run the server from the `zensical` folder with:
 
 ```bash
 zensical serve
