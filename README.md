@@ -25,12 +25,12 @@ Install requirements, e.g. with pip:
 pip install -r requirements-dev.txt
 ```
 
-More details: [User Guide](https://www.mkdocs.org/user-guide/installation/)
+More details: [Zensical documentation](https://zensical.org/docs/)
 
 Run the server from the mkdocs folder with:
 
 ```bash
-mkdocs serve
+zensical serve
 ```
 
 And the site - with live reload enabled - should be available on [localhost:8000](http://localhost:8000).

@@ -29,7 +29,12 @@
 }
 
 [data-md-color-scheme="auto3t"] {
+  --color-background: 0 32 47;
+  --color-background-subtle: 0 104 140;
+  --color-backdrop: 0 32 47;
+  --color-foreground: 240 212 172;
   --md-accent-fg-color: var(--accent-2);
+  --md-accent-fg-color--transparent: rgb(229 105 54 / 10%);
   --md-admonition-bg-color: var(--second-bg);
   --md-admonition-fg-color: var(--main-fg);
   --md-code-bg-color: var(--second-bg);
@@ -72,8 +77,13 @@ th {
   background-color: var(--main-fg);
 }
 
-.md-search__input {
+.md-search__button,
+.md-search__button:is(:focus, :hover) {
   color: var(--main-fg);
+}
+
+.md-search__button::before {
+  background-color: var(--main-fg);
 }
 
 .md-footer {

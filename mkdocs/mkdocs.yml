@@ -1,5 +1,7 @@
 site_name: Auto3T Docs
 site_url: https://docs.auto3t.com
+copyright: "© <script>document.write(new Date().getFullYear())</script> Auto3T"
+use_directory_urls: true
 nav:
   - Home: index.md
   - 'Installation':
@@ -30,6 +32,7 @@ nav:
     - 'Schedule and Tasks': 'settings/schedule-tasks.md'
 theme:
   name: material
+  variant: classic
   logo: assets/logo.png
   favicon: assets/favicon.ico
   palette:

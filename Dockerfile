@@ -3,15 +3,13 @@
 FROM python:3.13.11-slim-trixie AS builder
 ENV PATH=/root/.local/bin:$PATH
 
-RUN apt-get update -y && apt-get install -y libcairo2
-
 COPY requirements.txt /requirements.txt
 RUN pip install --user -r requirements.txt
 
 RUN mkdir /mkdocs
 COPY mkdocs /mkdocs
 WORKDIR mkdocs
-RUN mkdocs build
+RUN zensical build
 
 FROM nginx AS srv
 COPY --from=builder /mkdocs/site /usr/share/nginx/html

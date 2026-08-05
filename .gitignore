@@ -1,1 +1,5 @@
+# python
 .venv
+
+# test bundle
+mkdocs/site

@@ -16,7 +16,7 @@ If available, for each show you see:
 
 If the show already exists in **Auto3T**, the "open" button will redirect you to the show detail page.
 
-If the show already exists in your Mediaserver, a direct link to there will show. Make sure you have configured [JF_PROXY_URL](../installation/env-vars.md/#jf_proxy_url) for the links to work correctly.
+If the show already exists in your Mediaserver, a direct link to there will show. Make sure you have configured [JF_PROXY_URL](../installation/env-vars.md#jf_proxy_url) for the links to work correctly.
 
 If the show does not yet exists, you can click on "Add" to add a show to **Auto3T**. The "active" toggle indicates if the show will be actively tracked, searched and refreshed.
 
@@ -26,4 +26,4 @@ If the show does not yet exists, you can click on "Add" to add a show to **Auto3
 Additional Notes:
 
 - When adding a new show, **Auto3T** will do an initial lookup and will mark any already in the mediaserver available episodes as archived.
-- Episodes older than 365 days will be added with status "ignored", you can [bulk update seasons](../tv/show-detail.md/#update-status) if you also want to start searching for older episodes and seasons. This is to prevent an initial potentially large download of past episodes that might be unexpected from a "tracking" perspective.
+- Episodes older than 365 days will be added with status "ignored", you can [bulk update seasons](../tv/show-detail.md#update-status) if you also want to start searching for older episodes and seasons. This is to prevent an initial potentially large download of past episodes that might be unexpected from a "tracking" perspective.

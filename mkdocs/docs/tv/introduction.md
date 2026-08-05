@@ -14,7 +14,7 @@ From there you can:
 - Filter by active/inactive shows
 
 ## Show Status
-The show status is provided by tvmaze. That is refreshed with the [show refresh task](../settings/schedule-tasks.md/#refresh-all-shows).
+The show status is provided by tvmaze. That is refreshed with the [show refresh task](../settings/schedule-tasks.md#refresh-all-shows).
 
 These are the available options:
 
