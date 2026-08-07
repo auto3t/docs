@@ -50,6 +50,17 @@ This will also refresh newly imported persons importing additional metadata if p
 
 This will delete all cached data from Redis. This shouldn't really be needed, mostly a convenient button during development.
 
+### Full Mediaserver Identify
+
+During normal archival processes **Auto3T** will identify and match mediafiles once they become indexed in the media server. This gives a direct link and additional file metadata stats.
+
+This task does the same but over the complete set of in **Auto3T** indexed shows and movies. This can be slow, depending on instance size. This can be needed if:
+
+- You add media files to your mediaserver outside of **Auto3T** even though you are tracking the show or movie. 
+- You modify the media files to for example downscale or compress the media files, so this will refresh the indexed media metadata stats.
+
+You most likely don't need a schedule for that but might want to run this ad-hoc from time to time.
+
 ## Tasks
 
 Tasks can be run ad-hoc here on click. For a description of what each task is doing, see above.

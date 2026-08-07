@@ -4,6 +4,13 @@ Configuration option related how files are archived from your download folder to
 
 Select the option and click on the "checkmark" to apply. Only newly archived movies will use that format, this does not touch any existing files in the folder.
 
+## TV Show Folder Overwrite
+
+Jellyfin supports tagging show folders with the corresponding metadata provider ID, see [here](https://jellyfin.org/docs/general/server/media/shows/#naming) for more details. So for TVMaze you can tag a folder with `[tvmazeid-xxxxx]` to hard code the matching ID. If found, **Auto3T** will use that folder for archiving.
+
+- That is a good idea if there are multiple similar named shows on TVMaze, e.g. reboots.
+- Or if you want to customize the folder name for any other reason.
+
 ## Movie Archive Strategy
 
 This is the download folder for movies. All of these should be compatible with Jellyfin and this is mostly a matter of personal preference.

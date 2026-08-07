@@ -1,8 +1,11 @@
 # Add a new Show
 
-Clicking on the "Add" button opens a new page with a search bar.
+Clicking on the "Add" button opens a new page where you can add your shows to **Auto3T**.
 
-Start typing to search for shows through the [tvmaze.com](https://www.tvmaze.com/) API. **Auto3T** displays results as is.
+You have two tabs there:
+
+- **Search**: Free search with a search bar. Start typing to search for shows through the [tvmaze.com](https://www.tvmaze.com/) API. **Auto3T** displays results as is.
+- **Mediaserver**: Search for shows indexed in your mediaserver but not yet added to **Auto3T**.
 
 If available, for each show you see:
 
