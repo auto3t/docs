@@ -52,4 +52,6 @@ This is an honour system, there is no licensing server or paywall.
 
 ## The Name
 
-**Auto3T** is inspired by the early days of sharing media, the days where one would listen to music and shows *tracked* in magazines and newspapers on an analog radio player with integrated cassette *tape* case and hit record at the right time, then share, or now *torrent* the recordings with each other. Now, this project does the same, but *automatically*, at least as much as possible, for TV shows and movies.
+**Auto3T** is inspired by the early days of sharing media, the days where one would listen to music and shows *tracked* in magazines and newspapers on an analog radio player with integrated cassette *tape* case and hit record at the right time, then share the tape, or a little bit later in time *torrent* the recordings with each other.
+
+Now, this project does the same, but *automatically*, at least as much as possible, for TV shows and movies.
