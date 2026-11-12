@@ -1,6 +1,6 @@
 # build the docs and load static files into nginx
 
-FROM python:3.13.11-slim-trixie AS builder
+FROM python:3.14.10-slim-trixie AS builder
 ENV PATH=/root/.local/bin:$PATH
 
 COPY requirements.txt /requirements.txt
