@@ -29,6 +29,8 @@ You can manually search for show level releases in the indexes. Manual search fo
 
 The release will be valid, if all expected episodes can be identified in the release. **Auto3T** does not automatically search for show level releases, as that is too unreliable.
 
+There you can also directly manually add a magnet link.
+
 ## Show Ratings
 
 Show ratings provided from IMDb through a standalone container. For installation instructions see [github.com/bbilly1/imdb-db](https://github.com/bbilly1/imdb-db). Activate by configuring IMDB_DB_URL.
@@ -52,7 +54,7 @@ You can add keyword overwrites to the season here. If you have any keywords defi
 This gives a table view of all episodes in the season. If they are downloaded, you can see additional file and media metadata here in a table view.
 
 ### Manual Search for Season
-This search bar allows you to manually search for a given season. A season release is valid if all expected episodes are contained in the release. **Auto3T** will automatically search for season level releases if the search task encounters that all episodes in a season are released but nut yet downloaded. If not available, this will fallback to search for per episode releases.
+This search bar allows you to manually search for a given season. A season release is valid if all expected episodes are contained in the release. **Auto3T** will automatically search for season level releases if the search task encounters that all episodes in a season are released but nut yet downloaded. If not available, this will fallback to search for per episode releases. There you can also directly manually add a magnet link.
 
 ## Episodes
 Below you can see a list of episodes in the season. That can be empty if the season was announced but no episodes have been defined. That's sorted by newest on top.

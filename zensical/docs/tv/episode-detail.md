@@ -23,4 +23,4 @@ If the release has been archived, additional file and stream metadata will show 
 The play button opens your mediaserver at the given episode.
 
 ## Manual Search for Episode
-You can manually search for an episode here. If you regularly need to do this because the releases are not named as the show name, you can update the search name on the show directly.
+You can manually search for an episode here or directly manually add a magnet link. If you regularly need to do this because the releases are not named as the show name, you can update the search name on the show directly.

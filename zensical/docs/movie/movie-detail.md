@@ -34,4 +34,4 @@ If the movie has been archived, additional file and stream metadata will show he
 The play button opens your mediaserver at the given movie.
 
 ## Manual Search for Movie
-You can manually search for the movie here.
+You can manually search for the movie here or directly manually add a magnet link.
