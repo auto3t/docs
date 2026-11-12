@@ -46,7 +46,9 @@ Some indexer options allow configuring the Download link format. Make sure you s
 
 !!! bug
 
-    Unfortunately only up to version 10.10.7 is supported. The tvmaze plugin is currently broken under Jellyfin 10.11.x, the bug is tracked [here](https://github.com/jellyfin/jellyfin-plugin-tvmaze/issues/57).
+    Unfortunately only up to version 10.10.7 is supported by the official tvmaze plugin. The tvmaze plugin is currently broken under Jellyfin 10.11.x, the bug is tracked [here](https://github.com/jellyfin/jellyfin-plugin-tvmaze/issues/57).
+
+    There is a fork [bbilly1/jellyfin-plugin-tvmaze](https://github.com/bbilly1/jellyfin-plugin-tvmaze) fixing the plugin and covering the gap, at least for now.
 
 ### Plugins
 
